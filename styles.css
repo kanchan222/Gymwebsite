@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 30px 80px;
+    /* background-color: hsl(327, 36%, 28%); */
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+#slidertext {
+    font-size: 30px;
+}
+
+#get {
+    padding: 40px 0px;
+    font-size: 80px;
+}
+
+.button {
+    background-color: rgb(207, 16, 121);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 80px;
+    border: none;
+    font-size: 20px;
+    margin: 50px 0px;
+}
+
+.img {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.banner {
+     margin:10px; 
+    padding:10px; 
+    background-image: url(gym12.jpg);
+    opacity:0.2px;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height: 100vh;
+    
+}
+
+.banner-text {
+    text-align: center;
+    color: rgb(102, 192, 18);
+    padding-top: 180px;
+}
+
+.banner-text h1 {
+    padding:10px 0px;
+    font-size: 50px;
+}
+
+.banner-text p {
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.three{
+ margin:10 10 10 10;
+ padding:20 30;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .images{
+  display: flex;
+  gap: 30px;
+  }
+  
+
+/* 
+.image{
+    padding:100px;
+    display: flex;
+  gap:20px;
+  background-color: #dd0c8d;
+  } */
+
+  
+
+
+.wholeclass{
+padding-top: 90px;
+background-color: #a18894;
+}
+/* .font{
+ text-align: center;
+background-color: #4016d8;
+}  */
+
+.image{
+  
+    padding:100px;
+    display: flex;
+    justify-content: center;
+  gap:20px;
+  background-color: #dd0c8d;
+  }
+
+
+
+.feature {
+    margin:60px;
+    padding: 10 30 10 30px;
+    border-radius: 20px;
+    text-align: center;
+    
+  }
+  
+
+  .icon{
+   
+    width: 55px;
+    padding: 30px;
+    border-radius: 60%;
+    background-color: #fd288d;
+    
+  }
+
+  .icon i{
+    color:white;
+  }
+
+
+  .blank{
+    padding: 2px 16px; 
+     border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+   
+  .hero{
+    margin:50px;
+    padding:30px;
+    background-image: url(scene1.jpg);
+    background-position: center;
+    width:100%;
+    height:60vh;
+    color: #fd288d;
+    /* justify-content: center; */
+  }
+  .text h1{
+    font-size: 40px;
+     justify-content: center;
+     text-align: center;
+     padding:50px;
+  }
+  .text p{
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    padding:20px;
+  }
+  .button{
+    margin-bottom: 10px;
+  } 
+/* 
+   .hero h1 {
+    color: #fd288d;
+    justify-content: ;
+  }
+
+  .hero-text h1{
+justify-content: center;
+  }
+  .hero p{
+    color: #fd288d;
+  }  */
+
+  .pro{
+    display:flex;
+    background-color: black;
+  } 
+
+  #well{
+    margin: 100px;
+    padding:80px  ;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+  border-radius: 0px;
+  }
+
+#well h1{
+  margin:10 10 px;
+font-size:xx-large;
+  
+   color: #fd288d;
+   
+}
+
+ 
+.btn{
+  margin: 20px;
+  padding:20px;
+  background-color: #fd288d;
+  border-radius: 50px;
+}
+/* section seven  css starts from here */
+
+
+
+
+
+
+.reviews{
+  /* margin: 10px; */
+  /* padding:0 10 10 10px; */
+
+  border:1px solid rgb(216, 75, 75);
+  /* border-radius: 0px; */
+  background-color: #6d0435 ;
+  font-size: medium;
+  text-align: center;
+ color: #fd288d;
+ justify-content: center;
+
+}
+.reviewhead{
+  /* font-size: medium; */
+  text-align: center;
+  /* color:#fd288d; */
+} 
+
+.review{
+ border: 1px solid rgb(255, 252, 252);
+ border-radius: 20px;
+ padding: 20px;
+ border-radius: 50px;
+  color:white;
+}
+.thereview{
+  padding: 30px 20px;
+  display:flex;
+  column-gap: 40px;
+}
+.review h2 {
+  font-size: small;
+ border-radius: 10px; 
+}
+.foot {
+  font-size: medium;
+  padding: 20px 0px 60px 0px;
+}
+
+.logo{
+  /* margin:50px;
+  padding:50px; */
+  background-image: url(contact.png);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: 100vh;
+}
