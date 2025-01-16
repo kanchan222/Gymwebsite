@@ -5,13 +5,18 @@
 }
 
 body {
-    margin: 30px 80px;
+    margin: 0px 0px;
     /* background-color: hsl(327, 36%, 28%); */
 }
 
 .flex {
     display: flex;
+    background-color: #743251;
+    justify-content: space-around;
+    padding: 50px;
 }
+
+
 
 
 
@@ -34,17 +39,18 @@ body {
     margin: 50px 0px;
 }
 
-.img {
+.flex .img {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
+
 
 }
 
 .banner {
-     margin:10px; 
-    padding:10px; 
+     /* margin:10px; 
+    padding:10px;  */
     background-image: url(gym12.jpg);
-    opacity:0.2px;
+
     background-size: cover;
     background-position: center;
     width:100%;
@@ -54,8 +60,9 @@ body {
 
 .banner-text {
     text-align: center;
-    color: rgb(102, 192, 18);
+    color: rgb(228, 19, 124);
     padding-top: 180px;
+    opacity: 50;
 }
 
 .banner-text h1 {
@@ -75,8 +82,8 @@ body {
 
 
 .three{
- margin:10 10 10 10;
- padding:20 30;
+ margin: 10px 0px 0px 10px;
+ padding:20px 30px;
 }
 
 
@@ -84,6 +91,8 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 40%;
+    padding: 20px;
+    border-radius: 10%;
   }
   
   .card:hover {
@@ -114,82 +123,99 @@ body {
   
 
 
-.wholeclass{
-padding-top: 90px;
-background-color: #a18894;
-}
-/* .font{
- text-align: center;
-background-color: #4016d8;
-}  */
 
-.image{
-  
-    padding:100px;
-    display: flex;
-    justify-content: center;
-  gap:20px;
-  background-color: #dd0c8d;
+
+
+
+.wholeclass{
+    padding:30px;
+    margin-top: 10px;
+    /* justify-content: center; */
+   background-color: #2b1821;
+   border-color: white;
+   border-bottom: #e9197a;
   }
 
+  .font{
+    color: #fd288d;
+    text-align: center;
+  }
 
+  .features{
+    display: flex;
+  }
 
 .feature {
-    margin:60px;
-    padding: 10 30 10 30px;
-    border-radius: 20px;
-    text-align: center;
+  padding: 2px 16px;
+
+  border-radius: 20px;
+  text-align: center;
     
   }
   
 
   .icon{
-   
+   margin:40px; 
+   padding:50px; 
     width: 55px;
     padding: 30px;
-    border-radius: 60%;
-    background-color: #fd288d;
+    border-radius: 100%;
+
+    background-color: #e9197a;
     
   }
 
   .icon i{
     color:white;
+  border-radius: 20px;
   }
 
 
   .blank{
-    padding: 2px 16px; 
-     border: 1px solid black;
-    border-radius: 20px;
-    text-align: center;
+    
+    padding: 10px 50px; 
+     border: 1px solid white;
+    border-radius:10px; 
+
+  }
+  .blank h4{
+    color:white;
+  font-size: small;
   }
   
    
   .hero{
-    margin:50px;
-    padding:30px;
+    
     background-image: url(scene1.jpg);
     background-position: center;
     width:100%;
     height:60vh;
     color: #fd288d;
-    /* justify-content: center; */
-  }
-  .text h1{
-    font-size: 40px;
-     justify-content: center;
-     text-align: center;
-     padding:50px;
-  }
-  .text p{
-    font-size: 20px;
+    display: grid;
     justify-content: center;
     text-align: center;
-    padding:20px;
   }
-  .button{
-    margin-bottom: 10px;
-  } 
+  .hero .text{
+    font-size: 40px;
+    padding:50px;
+    
+     
+  }
+  .text p{
+    font-size: 15px;
+    
+  }
+  .btnn{
+    padding: 10px;
+     color:white;
+     background-color: #fd288d;
+     border-radius: 10px;
+     
+  }
+  
+   
+
+  
 /* 
    .hero h1 {
     color: #fd288d;
@@ -204,17 +230,20 @@ justify-content: center;
   }  */
 
   .pro{
+    
     display:flex;
-    background-color: black;
+    background-color:  #2b1821;
   } 
 
   #well{
-    margin: 100px;
-    padding:80px  ;
+margin:80px ;
+padding: 20px 20px;
     font-size: 20px;
-    background-color: white;
+    background-color: rgba(1,1,1,0.5);
     text-align: center;
-  border-radius: 0px;
+    color: wheat;
+    border-radius: 10px;
+
   }
 
 #well h1{
@@ -230,7 +259,7 @@ font-size:xx-large;
   margin: 20px;
   padding:20px;
   background-color: #fd288d;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 /* section seven  css starts from here */
 
@@ -280,10 +309,9 @@ font-size:xx-large;
 }
 
 .logo{
-  /* margin:50px;
-  padding:50px; */
+  
   background-image: url(contact.png);
   /* background-repeat: no-repeat; */
   background-size: cover;
-  height: 100vh;
+  height: 60vh;
 }
